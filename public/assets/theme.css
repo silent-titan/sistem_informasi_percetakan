@@ -1,0 +1,257 @@
+:root {
+  --sky-primary: #4da6ff;
+  --sky-secondary: #e6f2ff;
+  --sky-accent: #003366;
+  --sky-muted: #f7fbff;
+}
+
+.topbar {
+  background: #fff;
+  border-bottom: 1px solid #e3f1ff;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topbar .fw-bold {
+  color: var(--sky-accent);
+}
+
+body {
+  font-family: 'Poppins', 'Open Sans', Arial, sans-serif;
+  background: var(--sky-muted);
+  color: #222;
+}
+
+.navbar {
+  background-color: var(--sky-primary);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff;
+}
+
+.sidebar {
+  width: 260px;
+  background: var(--sky-secondary);
+  min-height: 100vh;
+  position: fixed;
+  border-right: 1px solid #cfe6ff;
+}
+
+.sidebar .menu-header {
+  color: var(--sky-accent);
+  font-weight: 600;
+  padding: 16px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 12px 16px;
+  color: #1f4b7a;
+  text-decoration: none;
+}
+
+.sidebar a.active,
+.sidebar a:hover {
+  background: #d6ebff;
+  color: var(--sky-accent);
+}
+
+.main {
+  margin-left: 260px;
+  padding: 24px;
+}
+
+.card {
+  border: 1px solid #e3f1ff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.btn-primary {
+  background-color: var(--sky-primary);
+  border-color: var(--sky-primary);
+}
+
+.btn-outline-primary {
+  color: var(--sky-primary);
+  border-color: var(--sky-primary);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--sky-accent);
+}
+
+/* Wrapper untuk halaman register */
+.register-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--sky-muted);
+}
+
+/* Card register */
+.register-card {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  border: 1px solid #e3f1ff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 24px;
+}
+
+/* Judul register */
+.register-card h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--sky-accent);
+}
+
+/* Label form */
+.register-card .form-label {
+  font-weight: 500;
+  color: var(--sky-accent);
+}
+
+/* Tombol utama */
+.register-card .btn-primary {
+  background-color: var(--sky-primary);
+  border-color: var(--sky-primary);
+}
+
+/* Tombol link ke login */
+.register-card .btn-outline-secondary {
+  border-color: var(--sky-primary);
+  color: var(--sky-primary);
+}
+
+.register-card .btn-outline-secondary:hover {
+  background-color: var(--sky-secondary);
+  color: var(--sky-accent);
+}
+
+/* Container utama */
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+}
+
+/* Judul dashboard */
+.container h3 {
+  color: var(--sky-accent);
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+/* Card umum */
+.card {
+  border: 1px solid #e3f1ff;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+/* Judul card */
+.card h5 {
+  color: var(--sky-accent);
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+/* Form pembelian */
+.card form .form-label {
+  font-weight: 500;
+  color: var(--sky-accent);
+}
+
+.card form .form-control,
+.card form .form-select {
+  border: 1px solid #cfe6ff;
+  border-radius: 6px;
+}
+
+.card form .btn-primary {
+  background-color: var(--sky-primary);
+  border-color: var(--sky-primary);
+  font-weight: 500;
+}
+
+.card form .btn-primary:hover {
+  background-color: #3399ff;
+  border-color: #3399ff;
+}
+
+/* Tabel riwayat pembelian */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.table thead {
+  background-color: var(--sky-secondary);
+}
+
+.table th {
+  padding: 12px;
+  text-align: left;
+  color: var(--sky-accent);
+  font-weight: 600;
+  border-bottom: 2px solid #cfe6ff;
+}
+
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #e3f1ff;
+}
+
+.table tr:hover {
+  background-color: #f7fbff;
+}
+
+/* Sidebar pelanggan */
+.pelanggan-sidebar {
+  width: 240px;
+  background: var(--sky-secondary);
+  min-height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-right: 1px solid #cfe6ff;
+  padding-top: 20px;
+}
+
+.pelanggan-sidebar .menu-header {
+  color: var(--sky-accent);
+  font-weight: 600;
+  padding: 16px;
+  font-size: 1.1rem;
+}
+
+.pelanggan-sidebar a {
+  display: block;
+  padding: 12px 20px;
+  color: #1f4b7a;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.pelanggan-sidebar a.active,
+.pelanggan-sidebar a:hover {
+  background: #d6ebff;
+  color: var(--sky-accent);
+  border-left: 4px solid var(--sky-primary);
+}
+
+/* Konten utama bergeser */
+.main {
+  margin-left: 240px;
+  padding: 24px;
+}

@@ -1,0 +1,1008 @@
+DEBUG - 2025-12-30 13:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-12-30 13:42:18 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+INFO - 2025-12-30 13:42:18 --> CSRF token verified.
+DEBUG - 2025-12-30 13:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 13:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 13:42:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelanggan/dashboard.php"
+[Method: GET, Route: pelanggan/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('pelanggan/dashboard', [], true)
+ 3 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('pelanggan/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 13:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 13:44:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelanggan/dashboard.php"
+[Method: GET, Route: pelanggan/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('pelanggan/dashboard', [], true)
+ 3 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('pelanggan/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+WARNING - 2025-12-30 13:44:48 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+INFO - 2025-12-30 13:44:48 --> CSRF token verified.
+DEBUG - 2025-12-30 13:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 13:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 13:44:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelanggan/dashboard.php"
+[Method: GET, Route: pelanggan/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('pelanggan/dashboard', [], true)
+ 3 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('pelanggan/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+WARNING - 2025-12-30 13:45:26 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+INFO - 2025-12-30 13:45:26 --> CSRF token verified.
+DEBUG - 2025-12-30 13:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 13:45:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-12-30 13:45:38 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('pelanggan/dashboard/beli')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('pelanggan/dashboard/beli', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+INFO - 2025-12-30 13:45:39 --> CSRF token verified.
+DEBUG - 2025-12-30 13:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 13:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 13:49:18 --> ErrorException: Undefined array key "layanan_id"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 121.
+ 1 APPPATH\Views\dashboard\pelanggan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "layanan_id"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 13:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-12-30 13:49:26 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+INFO - 2025-12-30 13:49:26 --> CSRF token verified.
+DEBUG - 2025-12-30 13:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 13:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 13:49:26 --> ErrorException: Undefined array key "layanan_id"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 121.
+ 1 APPPATH\Views\dashboard\pelanggan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "layanan_id"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+WARNING - 2025-12-30 13:52:25 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+INFO - 2025-12-30 13:52:25 --> CSRF token verified.
+DEBUG - 2025-12-30 13:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 13:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 13:52:25 --> ErrorException: Undefined array key "layanan_id"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 121.
+ 1 APPPATH\Views\dashboard\pelanggan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "layanan_id"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 13:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 13:52:40 --> ErrorException: Undefined array key "layanan_id"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 121.
+ 1 APPPATH\Views\dashboard\pelanggan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "layanan_id"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 13:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 13:52:42 --> ErrorException: Undefined array key "layanan_id"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 121.
+ 1 APPPATH\Views\dashboard\pelanggan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "layanan_id"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+WARNING - 2025-12-30 13:52:45 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+INFO - 2025-12-30 13:52:45 --> CSRF token verified.
+DEBUG - 2025-12-30 13:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 13:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 13:52:45 --> ErrorException: Undefined array key "layanan_id"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 121.
+ 1 APPPATH\Views\dashboard\pelanggan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "layanan_id"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:01:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:01:46 --> ErrorException: Undefined array key "qty"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 122.
+ 1 APPPATH\Views\dashboard\pelanggan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-12-30 14:01:51 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+INFO - 2025-12-30 14:01:51 --> CSRF token verified.
+DEBUG - 2025-12-30 14:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 14:01:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:01:52 --> ErrorException: Undefined array key "qty"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 122.
+ 1 APPPATH\Views\dashboard\pelanggan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qty"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:02:15 --> ErrorException: Undefined array key "jumlah"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 122.
+ 1 APPPATH\Views\dashboard\pelanggan.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jumlah"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 122)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 14:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:03:32 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 121.
+ 1 APPPATH\Views\dashboard\pelanggan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:04:00 --> ErrorException: Undefined array key "layanan_id"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 121.
+ 1 APPPATH\Views\dashboard\pelanggan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "layanan_id"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 14:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-12-30 14:07:10 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('pelanggan/dashboard/beli')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('pelanggan/dashboard/beli', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+INFO - 2025-12-30 14:07:10 --> CSRF token verified.
+DEBUG - 2025-12-30 14:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-30 14:07:10 --> mysqli_sql_exception: Duplicate entry '' for key 'kode' in C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\sistem_informasi_percetakan\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\sistem_informasi_percetakan\system\BaseModel.php(838): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\sistem_informasi_percetakan\system\Model.php(797): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\sistem_informasi_percetakan\app\Controllers\pelanggan\DashboardController.php(40): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->beli()
+#9 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+#10 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\sistem_informasi_percetakan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\sistem_informasi_percetakan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\sistem_informasi_percetakan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\sistem_informasi_percetakan\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-12-30 14:07:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'kode'
+[Method: POST, Route: pelanggan/dashboard/beli]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`pelanggan_id`, `tanggal`, `status`, `created_at`, `updated_at`) VALUES (:pelanggan_id:, :tanggal:, :status:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(40): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->beli()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+CRITICAL - 2025-12-30 14:07:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '' for key 'kode'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transaksi` (`pelanggan_id`, `tanggal`, `status`, `created_at`, `updated_at`) VALUES (\'2\', \'2025-12-30 14:07:10\', \'menunggu konfirmasi\', \'2025-12-30 14:07:10\', \'2025-12-30 14:07:10\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transaksi` (`pelanggan_id`, `tanggal`, `status`, `created_at`, `updated_at`) VALUES (\'2\', \'2025-12-30 14:07:10\', \'menunggu konfirmasi\', \'2025-12-30 14:07:10\', \'2025-12-30 14:07:10\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`pelanggan_id`, `tanggal`, `status`, `created_at`, `updated_at`) VALUES (:pelanggan_id:, :tanggal:, :status:, :created_at:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\pelanggan\DashboardController.php(40): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->beli()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+CRITICAL - 2025-12-30 14:07:10 --> [Caused by] mysqli_sql_exception: Duplicate entry '' for key 'kode'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `transaksi` (`pelanggan_id`, `tanggal`, `status`, `created_at`, `updated_at`) VALUES (\'2\', \'2025-12-30 14:07:10\', \'menunggu konfirmasi\', \'2025-12-30 14:07:10\', \'2025-12-30 14:07:10\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `transaksi` (`pelanggan_id`, `tanggal`, `status`, `created_at`, `updated_at`) VALUES (\'2\', \'2025-12-30 14:07:10\', \'menunggu konfirmasi\', \'2025-12-30 14:07:10\', \'2025-12-30 14:07:10\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `transaksi` (`pelanggan_id`, `tanggal`, `status`, `created_at`, `updated_at`) VALUES (\'2\', \'2025-12-30 14:07:10\', \'menunggu konfirmasi\', \'2025-12-30 14:07:10\', \'2025-12-30 14:07:10\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `transaksi` (`pelanggan_id`, `tanggal`, `status`, `created_at`, `updated_at`) VALUES (:pelanggan_id:, :tanggal:, :status:, :created_at:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(838): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(797): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\pelanggan\DashboardController.php(40): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->beli()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:07:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:07:54 --> ErrorException: Undefined array key "layanan_id"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 121.
+ 1 APPPATH\Views\dashboard\pelanggan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "layanan_id"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:07:55 --> ErrorException: Undefined array key "layanan_id"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 121.
+ 1 APPPATH\Views\dashboard\pelanggan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "layanan_id"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-30 14:11:40 --> mysqli_sql_exception: Unknown column 'transaksi.jumlah' in 'field list' in C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `transak...', 0)
+#1 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transak...')
+#2 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transak...')
+#3 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transak...', Array, false)
+#4 C:\xampp\htdocs\sistem_informasi_percetakan\app\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+#6 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+#7 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem_informasi_percetakan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem_informasi_percetakan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\sistem_informasi_percetakan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\sistem_informasi_percetakan\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-12-30 14:11:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'transaksi.jumlah' in 'field list'
+[Method: GET, Route: pelanggan/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 2 APPPATH\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+CRITICAL - 2025-12-30 14:11:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'transaksi.jumlah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 4 APPPATH\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+CRITICAL - 2025-12-30 14:11:40 --> [Caused by] mysqli_sql_exception: Unknown column 'transaksi.jumlah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:11:57 --> ErrorException: Undefined array key "layanan_nama"
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 121.
+ 1 APPPATH\Views\dashboard\pelanggan.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "layanan_nama"', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 121)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:17:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-30 14:17:28 --> mysqli_sql_exception: Unknown column 'transaksi.jumlah' in 'field list' in C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `transak...', 0)
+#1 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transak...')
+#2 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transak...')
+#3 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transak...', Array, false)
+#4 C:\xampp\htdocs\sistem_informasi_percetakan\app\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+#6 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+#7 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem_informasi_percetakan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem_informasi_percetakan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\sistem_informasi_percetakan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\sistem_informasi_percetakan\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-12-30 14:17:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'transaksi.jumlah' in 'field list'
+[Method: GET, Route: pelanggan/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 2 APPPATH\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+CRITICAL - 2025-12-30 14:17:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'transaksi.jumlah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 4 APPPATH\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+CRITICAL - 2025-12-30 14:17:28 --> [Caused by] mysqli_sql_exception: Unknown column 'transaksi.jumlah' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`tanggal`, `transaksi`.`jumlah`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-30 14:23:57 --> mysqli_sql_exception: Unknown column 'transaksi.layanan_id' in 'on clause' in C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `transak...', 0)
+#1 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transak...')
+#2 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transak...')
+#3 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transak...', Array, false)
+#4 C:\xampp\htdocs\sistem_informasi_percetakan\app\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+#6 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+#7 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem_informasi_percetakan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem_informasi_percetakan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\sistem_informasi_percetakan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\sistem_informasi_percetakan\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-12-30 14:23:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'transaksi.layanan_id' in 'on clause'
+[Method: GET, Route: pelanggan/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 2 APPPATH\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+CRITICAL - 2025-12-30 14:23:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'transaksi.layanan_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 4 APPPATH\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+CRITICAL - 2025-12-30 14:23:57 --> [Caused by] mysqli_sql_exception: Unknown column 'transaksi.layanan_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`
+FROM `transaksi`
+JOIN `layanan` ON `transaksi`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:30:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelanggan/dashboard.php"
+[Method: GET, Route: pelanggan/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('pelanggan/dashboard', [], true)
+ 3 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('pelanggan/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:32:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelanggan/dashboard.php"
+[Method: GET, Route: pelanggan/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('pelanggan/dashboard', [], true)
+ 3 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('pelanggan/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:32:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelanggan/dashboard.php"
+[Method: GET, Route: pelanggan/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('pelanggan/dashboard', [], true)
+ 3 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('pelanggan/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:35:40 --> ErrorException: Undefined variable $layananList
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 87.
+ 1 APPPATH\Views\dashboard\pelanggan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $layananList', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:36:29 --> ErrorException: Undefined variable $layananList
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 87.
+ 1 APPPATH\Views\dashboard\pelanggan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $layananList', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:37:25 --> ErrorException: Undefined variable $layanan
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 87.
+ 1 APPPATH\Views\dashboard\pelanggan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $layanan', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:38:14 --> ErrorException: Undefined variable $layananList
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 87.
+ 1 APPPATH\Views\dashboard\pelanggan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $layananList', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:38:30 --> ErrorException: Undefined variable $l
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 88.
+ 1 APPPATH\Views\dashboard\pelanggan.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $l', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:38:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:38:43 --> ErrorException: Undefined variable $l
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 88.
+ 1 APPPATH\Views\dashboard\pelanggan.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $l', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:38:45 --> ErrorException: Undefined variable $l
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 88.
+ 1 APPPATH\Views\dashboard\pelanggan.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $l', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 88)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 14:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:39:30 --> ErrorException: Undefined variable $layananList
+[Method: GET, Route: pelanggan/dashboard]
+in APPPATH\Views\dashboard\pelanggan.php on line 87.
+ 1 APPPATH\Views\dashboard\pelanggan.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $layananList', 'C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\app\\Views\\dashboard\\pelanggan.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('dashboard/pelanggan', [], true)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(21): view('dashboard/pelanggan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-30 14:44:59 --> mysqli_sql_exception: Table 'sistem_informasi_percetakan.transaksi_detail' doesn't exist in C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `transak...', 0)
+#1 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transak...')
+#2 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transak...')
+#3 C:\xampp\htdocs\sistem_informasi_percetakan\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transak...', Array, false)
+#4 C:\xampp\htdocs\sistem_informasi_percetakan\app\Controllers\pelanggan\DashboardController.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+#6 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+#7 C:\xampp\htdocs\sistem_informasi_percetakan\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\sistem_informasi_percetakan\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\sistem_informasi_percetakan\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\xampp\htdocs\sistem_informasi_percetakan\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 C:\xampp\htdocs\sistem_informasi_percetakan\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2025-12-30 14:44:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'sistem_informasi_percetakan.transaksi_detail' doesn't exist
+[Method: GET, Route: pelanggan/dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 684.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`, `transaksi_detail`.`jumlah`, `transaksi_detail`.`harga`, `transaksi_detail`.`subtotal`
+FROM `transaksi`
+JOIN `transaksi_detail` ON `transaksi`.`id` = `transaksi_detail`.`transaksi_id`
+JOIN `layanan` ON `transaksi_detail`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 2 APPPATH\Controllers\pelanggan\DashboardController.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+CRITICAL - 2025-12-30 14:44:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'sistem_informasi_percetakan.transaksi_detail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`, `transaksi_detail`.`jumlah`, `transaksi_detail`.`harga`, `transaksi_detail`.`subtotal`
+FROM `transaksi`
+JOIN `transaksi_detail` ON `transaksi`.`id` = `transaksi_detail`.`transaksi_id`
+JOIN `layanan` ON `transaksi_detail`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`, `transaksi_detail`.`jumlah`, `transaksi_detail`.`harga`, `transaksi_detail`.`subtotal`
+FROM `transaksi`
+JOIN `transaksi_detail` ON `transaksi`.`id` = `transaksi_detail`.`transaksi_id`
+JOIN `layanan` ON `transaksi_detail`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`, `transaksi_detail`.`jumlah`, `transaksi_detail`.`harga`, `transaksi_detail`.`subtotal`
+FROM `transaksi`
+JOIN `transaksi_detail` ON `transaksi`.`id` = `transaksi_detail`.`transaksi_id`
+JOIN `layanan` ON `transaksi_detail`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 4 APPPATH\Controllers\pelanggan\DashboardController.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+CRITICAL - 2025-12-30 14:44:59 --> [Caused by] mysqli_sql_exception: Table 'sistem_informasi_percetakan.transaksi_detail' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`, `transaksi_detail`.`jumlah`, `transaksi_detail`.`harga`, `transaksi_detail`.`subtotal`
+FROM `transaksi`
+JOIN `transaksi_detail` ON `transaksi`.`id` = `transaksi_detail`.`transaksi_id`
+JOIN `layanan` ON `transaksi_detail`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`, `transaksi_detail`.`jumlah`, `transaksi_detail`.`harga`, `transaksi_detail`.`subtotal`
+FROM `transaksi`
+JOIN `transaksi_detail` ON `transaksi`.`id` = `transaksi_detail`.`transaksi_id`
+JOIN `layanan` ON `transaksi_detail`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`, `transaksi_detail`.`jumlah`, `transaksi_detail`.`harga`, `transaksi_detail`.`subtotal`
+FROM `transaksi`
+JOIN `transaksi_detail` ON `transaksi`.`id` = `transaksi_detail`.`transaksi_id`
+JOIN `layanan` ON `transaksi_detail`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = \'2\'
+ORDER BY `transaksi`.`tanggal` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `transaksi`.`kode`, `transaksi`.`tanggal`, `transaksi`.`total`, `transaksi`.`status`, `layanan`.`nama` as `layanan_nama`, `transaksi_detail`.`jumlah`, `transaksi_detail`.`harga`, `transaksi_detail`.`subtotal`
+FROM `transaksi`
+JOIN `transaksi_detail` ON `transaksi`.`id` = `transaksi_detail`.`transaksi_id`
+JOIN `layanan` ON `transaksi_detail`.`layanan_id` = `layanan`.`id`
+WHERE `transaksi`.`pelanggan_id` = :transaksi.pelanggan_id:
+ORDER BY `transaksi`.`tanggal` DESC', [...], false)
+ 5 APPPATH\Controllers\pelanggan\DashboardController.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-30 14:47:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelanggan/dashboard.php"
+[Method: GET, Route: pelanggan/dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1199): CodeIgniter\View\View->render('pelanggan/dashboard', [], true)
+ 3 APPPATH\Controllers\pelanggan\DashboardController.php(22): view('pelanggan/dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan\DashboardController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan\DashboardController))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+DEBUG - 2025-12-30 14:48:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 14:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 14:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-12-30 14:49:33 --> [DEPRECATED] Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST". in SYSTEMPATH\Filters\Filters.php on line 744.
+ 1 SYSTEMPATH\Filters\Filters.php(744): trigger_error('Setting lowercase HTTP method key "post" is deprecated. Use uppercase HTTP method like "POST".', 16384)
+ 2 SYSTEMPATH\Filters\Filters.php(475): CodeIgniter\Filters\Filters->processMethods()
+ 3 SYSTEMPATH\Filters\Filters.php(218): CodeIgniter\Filters\Filters->initialize('login')
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('login', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\sistem_informasi_percetakan\\public\\index.php')
+INFO - 2025-12-30 14:49:33 --> CSRF token verified.
+DEBUG - 2025-12-30 14:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 14:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 14:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 14:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 14:49:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-30 14:49:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
